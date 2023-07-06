@@ -18,6 +18,10 @@ import lombok.ToString;
 class Cat {
     private String name;
     private boolean male;
+
+    // lombok 사용 중에도 변경하고 싶은 메소드만 작성하면
+    // 나머지는 기본적으로 작성이되고
+    // 직접 작성한 것은 덮어씌워진다.
 }
 
 public class Study07 {
